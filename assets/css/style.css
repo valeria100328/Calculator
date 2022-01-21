@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f7a48b;
+}
+
+
+header{
+    background: #a56b78;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.historial{
+    color:rgb(138, 98, 98);
+    background-color: rgb(245, 199, 247);
+    font-size: 30px;
+    
+}
+.posts{
+    color:rgb(253, 11, 11);
+    background-color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    cursor: pointer;
+    width: 73%;
+    height: 38px;
+    margin: 20px;
+    font-size: 2.1em;
+    border: none;
+    background-color: #801422;
+    box-shadow: 10px 9px 2px -2px #834e4e, -5px -5px 15px 7px #6634a51f;
+    border-radius: 20%;
+    font-size: 32px;
+}
+
+button:active {
+    background-color: #a56b78;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 159px repeat(5, 75px);
+    background-color: #f17171;
+    padding: 18px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+/*Diseño de la pantalla pequeña de la calculadora*/
+.display {
+    grid-column: 1 / -1;
+    padding: 15px;
+    display: flex;
+    margin: 15px 15px 10px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #a56b78;
+    border-radius: 30px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px#42364a33;
+    color: white;
+    line-height: 130px;
+    font-size: 6em;
+}
+
+
